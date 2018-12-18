@@ -1,0 +1,1 @@
+/Users/daniel.kim/Library/Developer/Xcode/DerivedData/BetaBuilder-dqctlrinnegmwjdftrwnmunveesw/Build/Products/Debug/BetaBuilder for iOS Apps.app/Contents/Resources/README

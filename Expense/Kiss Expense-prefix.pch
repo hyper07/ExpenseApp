@@ -1,0 +1,37 @@
+//
+//  KissExpense-prefix.pch
+//  KissExpense
+//
+//  Created by Kibaek Kim on 5/19/15.
+//  Copyright (c) 2015 Kiss. All rights reserved.
+//
+
+#ifndef KissExpense_KissExpense_prefix_pch
+#define KissExpense_KissExpense_prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __i386__
+#define ON_DEVICE NO
+#else
+#define ON_DEVICE YES
+#endif
+
+#define TAPPEDTHUMBNAIL @"TappedThumbnail"
+#define UPLOADEXPENSE @"UploadExpense"
+#define DELETEEXPENSE @"DeleteExpense"
+#define TAKEPHOTO @"TakePhoto"
+
+#define IS_IPHONE        (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_IPHONE_4      (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 480.0)
+#define IS_IPHONE_5      (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 568.0)
+#define IS_IPHONE_6      (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 667.0)
+#define IS_IPHONE_6PLUS  (IS_IPHONE && [[UIScreen mainScreen] nativeScale] == 3.0f)
+#define IS_IPHONE_6_PLUS (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 736.0)
+#define IS_IPHONE_X      (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 812.0)
+#define IS_RETINA        ([[UIScreen mainScreen] scale] == 2.0)
+
+#define IS_IPAD_DEVICE   [(NSString*)[UIDevice currentDevice].model hasPrefix:@"iPad"]
+
+#endif

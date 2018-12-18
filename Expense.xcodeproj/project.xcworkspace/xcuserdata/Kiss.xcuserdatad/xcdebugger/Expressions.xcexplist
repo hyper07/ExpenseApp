@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[AlbumCell setAlbumData:]:AlbumCell.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[receipt valueForKey:@&quot;expenseID&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "expense">
+            </PersistentString>
+            <PersistentString
+               value = "(NSInteger)receipt.expenseID">
+            </PersistentString>
+            <PersistentString
+               value = "expense.uploadedDate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MainTableViewController tableView:cellForRowAtIndexPath:]:MainTableViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MainTableViewController deleteReceipt:]:MainTableViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__41-[MainTableViewController uploadReceipt:]_block_invoke210:MainTableViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AlbumCell getExpenseIDForUploading]:AlbumCell.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "receipt.expenseID">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CustomCameraViewController animationDidStop:finished:]:CustomCameraViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[NSManagedObject(Custom) log]:NSManagedObject+Custom.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "value">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AssetGridViewController loadReceipt]:AssetGridViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[UIView(MGBadgeView) progressView]:UIView+MGBadgeView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CustomCameraViewController onChangedType:]:CustomCameraViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.actionSheet.alpha">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MainTableViewController uploadReceipt:receipt:]:MainTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "receipt.name">
+            </PersistentString>
+            <PersistentString
+               value = "receipt.type">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__49-[MainTableViewController handleThumbnailTapped:]_block_invoke:MainTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "appDelegate.selectedExpense.title">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__26-[AlbumCell setAlbumData:]_block_invoke:AlbumCell.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[((Receipt *)obj) expenseID]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UIImage(Custom) generatePhotoThumbnail:]:UIImage+Custom.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[TypeOptionView onTapHandle:]:TypeOptionView.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AssetViewController viewDidLoad]:AssetViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "appDelegate.selectedExpense.title">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MainTableViewController prepareForSegue:sender:]:MainTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "appDelegate.selectedExpense.title">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MainTableViewController loadData]:MainTableViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MainTableViewController tableView:viewForHeaderInSection:]:MainTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "expense.uploadedDate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CustomCameraViewController viewWillAppear:]:CustomCameraViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "currentReceipt">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UIDatePicker(Custom) layoutSubviews]:UIDatePicker+Custom.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MainTableViewController uploadReceipt:]:MainTableViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[TypeOptionView commonInit]:TypeOptionView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__39-[MainTableViewController deleteAlbum:]_block_invoke:MainTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "group">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__37-[AlbumCell getExpenseIDForUploading]_block_invoke:AlbumCell.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "((Receipt *)obj).uploadedDate">
+            </PersistentString>
+            <PersistentString
+               value = "receipt.expenseID">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__57-[MainTableViewController uploadExpense:userID:password:]_block_invoke:MainTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MainTableViewController deleteAlbum:]:MainTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedExpense.title">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

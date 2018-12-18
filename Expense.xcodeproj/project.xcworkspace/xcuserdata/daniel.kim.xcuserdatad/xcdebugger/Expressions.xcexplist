@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[MainTableViewController tableView:cellForRowAtIndexPath:]:MainTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.view.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__34-[AssetViewController viewDidLoad]_block_invoke:AssetViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AlbumCell setAlbumData:]:AlbumCell.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.frame.size.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ReceiptViewController viewWillAppear:]:ReceiptViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.myReceipt.image">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AssetViewController viewDidLoad]:AssetViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "appDelegate.selectedExpense.title">
+            </PersistentString>
+            <PersistentString
+               value = "receiptList.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MainTableViewController uploadReceipt:receipt:]:MainTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "receipt.thumbnail.bytes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[SSKeychain accountForService:error:]:SSKeychain.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AssetViewController deleteReceipt]:AssetViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SSKeychainQuery deleteItem:]:SSKeychainQuery.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
