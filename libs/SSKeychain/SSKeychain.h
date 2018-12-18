@@ -104,7 +104,7 @@ extern NSString *const kSSKeychainWhereKey;
 
 
 /**
- Added by Daniel Kim.
+ Added by Kibaek Kim.
 
  Sets only an account in the Keychain.
  */

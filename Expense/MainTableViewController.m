@@ -1,6 +1,6 @@
 //
 //  MainTableViewController.m
-//  KissExpense
+//  Expense
 //
 //  Created by Kibaek Kim on 5/18/15.
 //  Copyright (c) 2015 Kiss. All rights reserved.
@@ -269,13 +269,13 @@
     [appDelegate showActivityIndicator:YES];
     
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-    [manager POST:@"http://api.kissusa.com/expense/UploadExpense.php" parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    [manager POST:@"http://yourapiserver/expense/UploadExpense.php" parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
         [appDelegate showActivityIndicator:NO];
         
         if([[responseObject objectForKey:@"status"] rangeOfString:@"Success"].location != NSNotFound)
         {
-            [SSKeychain deleteAllAccountForService:@"KissExpense"];
-            [SSKeychain setAccount:userID forService:@"KissExpense"];
+            [SSKeychain deleteAllAccountForService:@"Expense"];
+            [SSKeychain setAccount:userID forService:@"Expense"];
             
             NSInteger uploadID = [[responseObject objectForKey:@"uploadID"] integerValue];
             [self uploadReceipt:uploadID receipt:[cell.receiptList objectAtIndex:0]];
@@ -334,7 +334,7 @@
     
     //here post url and imagedataa is data conversion of image  and fileimg is the upload image with that name in the php code
     NSMutableURLRequest *request =
-    [[AFHTTPRequestSerializer serializer] multipartFormRequestWithMethod:@"POST" URLString:@"http://api.kissusa.com/expense/UploadReceipt.php"
+    [[AFHTTPRequestSerializer serializer] multipartFormRequestWithMethod:@"POST" URLString:@"http://yourapiserver/expense/UploadReceipt.php"
                                     parameters:parameters
                      constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
                          [formData appendPartWithFileData:receipt.image name:@"receiptImage" fileName:@"receipt.jpg" mimeType:mimetype];
@@ -347,7 +347,7 @@
     [request setTimeoutInterval:600];
     
     
-    //NSMutableURLRequest *request = [[AFHTTPRequestSerializer serializer] requestWithMethod:@"POST" URLString:@"http://api.kissusa.com/expense/UploadReceipt.php" parameters:parameters error:nil];
+    //NSMutableURLRequest *request = [[AFHTTPRequestSerializer serializer] requestWithMethod:@"POST" URLString:@"http://yourapiserver/expense/UploadReceipt.php" parameters:parameters error:nil];
     
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     manager.requestSerializer = [AFHTTPRequestSerializer serializer];
@@ -511,7 +511,7 @@
 {
     if( alertView.alertViewStyle == UIAlertViewStyleLoginAndPasswordInput )
     {
-        NSString *userID = [SSKeychain accountForService:@"KissExpense"];
+        NSString *userID = [SSKeychain accountForService:@"Expense"];
         if( userID != nil )
         {
             UITextField *userIDField = [alertView textFieldAtIndex:0];

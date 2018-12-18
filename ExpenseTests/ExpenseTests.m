@@ -1,6 +1,6 @@
 //
-//  KissExpenseTests.m
-//  KissExpenseTests
+//  ExpenseTests.m
+//  ExpenseTests
 //
 //  Created by Kibaek Kim on 5/14/15.
 //  Copyright (c) 2015 Kiss. All rights reserved.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface KissExpenseTests : XCTestCase
+@interface ExpenseTests : XCTestCase
 
 @end
 
-@implementation KissExpenseTests
+@implementation ExpenseTests
 
 - (void)setUp {
     [super setUp];

@@ -1,8 +1,8 @@
 //
 //  ReceiptViewController.m
-//  KissExpense
+//  Expense
 //
-//  Created by Daniel Kim on 7/7/16.
+//  Created by Kibaek Kim on 7/7/16.
 //  Copyright © 2016 Kiss. All rights reserved.
 //
 

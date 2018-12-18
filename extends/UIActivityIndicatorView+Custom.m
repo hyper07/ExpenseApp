@@ -1,6 +1,6 @@
 //
 //  UIActivityIndicatorView+Custom.m
-//  KissExpense
+//  Expense
 //
 //  Created by Kibaek Kim on 6/5/15.
 //  Copyright (c) 2015 Kiss. All rights reserved.

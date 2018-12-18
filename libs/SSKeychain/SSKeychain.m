@@ -8,7 +8,7 @@
 
 #import "SSKeychain.h"
 
-NSString *const kSSKeychainErrorDomain = @"com.kissusa.sskeychain";
+NSString *const kSSKeychainErrorDomain = @"yourdomain.sskeychain";
 NSString *const kSSKeychainAccountKey = @"acct";
 NSString *const kSSKeychainCreatedAtKey = @"cdat";
 NSString *const kSSKeychainClassKey = @"labl";
@@ -74,7 +74,7 @@ NSString *const kSSKeychainWhereKey = @"svce";
     for( int i=0; i<accountList.count; i++ )
     {
         NSString *account = [[accountList objectAtIndex:i] objectForKey:@"acct"];
-        NSString *password = [SSKeychain passwordForService:@"KissExpense" account:account];
+        NSString *password = [SSKeychain passwordForService:@"Expense" account:account];
         NSString *tempPassword = [NSString stringWithFormat:@"temp_password_for_only_account_%@", account];
         
         if( [password isEqualToString:tempPassword] )
