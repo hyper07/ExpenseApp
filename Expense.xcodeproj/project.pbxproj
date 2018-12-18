@@ -656,11 +656,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
-				GCC_PREFIX_HEADER = "KissExpense/Kiss Expense-prefix.pch";
-				INFOPLIST_FILE = KissExpense/Info.plist;
+				GCC_PREFIX_HEADER = "Expense/Expense-prefix.pch";
+				INFOPLIST_FILE = Expense/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ahnsolutions.expense;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kibaek.expense;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -676,11 +676,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
-				GCC_PREFIX_HEADER = "KissExpense/Kiss Expense-prefix.pch";
-				INFOPLIST_FILE = KissExpense/Info.plist;
+				GCC_PREFIX_HEADER = "Expense/Expense-prefix.pch";
+				INFOPLIST_FILE = Expense/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ahnsolutions.expense;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kibaek.expense;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -700,7 +700,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = KissExpenseTests/Info.plist;
+				INFOPLIST_FILE = ExpenseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Expense.app/Expense";
@@ -715,7 +715,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = KissExpenseTests/Info.plist;
+				INFOPLIST_FILE = ExpenseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Expense.app/Expense";

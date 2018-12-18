@@ -3,7 +3,7 @@
 //  Expense
 //
 //  Created by Kibaek Kim on 5/18/15.
-//  Copyright (c) 2015 Kiss. All rights reserved.
+//  Copyright (c) 2015 Kibaek. All rights reserved.
 //
 
 #import "MainTableViewController.h"
@@ -41,7 +41,7 @@
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
     
     NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
-    self.navigationItem.title = [NSString stringWithFormat:@"Kiss Expense v%@", [infoDictionary objectForKey:@"CFBundleShortVersionString"]];
+    self.navigationItem.title = [NSString stringWithFormat:@"Kibaek Expense v%@", [infoDictionary objectForKey:@"CFBundleShortVersionString"]];
 }
 
 - (void)viewDidAppear:(BOOL)animated

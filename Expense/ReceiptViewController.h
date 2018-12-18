@@ -3,7 +3,7 @@
 //  Expense
 //
 //  Created by Kibaek Kim on 7/7/16.
-//  Copyright © 2016 Kiss. All rights reserved.
+//  Copyright © 2016 Kibaek. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
